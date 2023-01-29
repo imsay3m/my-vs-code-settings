@@ -3,60 +3,60 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
-
-   //Live server config
+  //Live server config
   "liveServer.settings.donotShowInfoMsg": true,
-
-   //Material icon theme config
+  //Material icon theme config
   "workbench.iconTheme": "material-icon-theme",
-
-   // Cursor
+  // Cursor
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
-
-   // Controls the font family.
-   "editor.fontFamily": "Operator Mono, Fira Code",
-
-   // Enables font ligatures
+  // Controls the font family.
+  "editor.fontFamily": "Operator Mono, Fira Code",
+  // Enables font ligatures
   "editor.fontLigatures": true,
   "editor.fontSize": 18,
   "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "comment",
-          "settings": {
-            "fontStyle": "italic"
-          }
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
         }
-      ]
+      }
+    ]
   },
-
-   //Terminal
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontWeight": "600",//semibold
+  //Terminal
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "600", //semibold
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-
-   // Terminal customization
+  // Terminal customization
   "workbench.colorCustomizations": {
-  "terminal.background": "#1D2021",
-  "terminal.foreground": "#A89984",
-  "terminalCursor.background": "#a8998490",
-  "terminalCursor.foreground": "#a8998490",
-  "terminal.ansiBlack": "#1D2021",
-  "terminal.ansiBlue": "#0D6678",
-  "terminal.ansiBrightBlack": "#665C54",
-  "terminal.ansiBrightBlue": "#0D6678",
-  "terminal.ansiBrightCyan": "#8BA59B",
-  "terminal.ansiBrightGreen": "#95C085",
-  "terminal.ansiBrightMagenta": "#8F4673",
-  "terminal.ansiBrightRed": "#FB543F",
-  "terminal.ansiBrightWhite": "#FDF4C1",
-  "terminal.ansiBrightYellow": "#FAC03B",
-  "terminal.ansiCyan": "#8BA59B",
-  "terminal.ansiGreen": "#95C085",
-  "terminal.ansiMagenta": "#8F4673",
-  "terminal.ansiRed": "#FB543F",
-  "terminal.ansiWhite": "#A89984",
-  "terminal.ansiYellow": "#FAC03B"
-  }
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#a8998490",
+    "terminalCursor.foreground": "#a8998490",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "tabnine.experimentalAutoImports": true,
+  "code-runner.runInTerminal": true
 }
