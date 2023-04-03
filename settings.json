@@ -26,6 +26,7 @@
     ]
   },
   //Terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "600", //semibold
@@ -55,8 +56,20 @@
   },
   "editor.accessibilitySupport": "off",
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "workbench.sideBar.location": "right",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "tabnine.experimentalAutoImports": true,
-  "code-runner.runInTerminal": true
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.terminalRoot": "/",
+  "code-runner.languageIdToFileExtensionMap": {
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe < input.txt > output.txt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe < input.txt > output.txt",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++20",
+    "shellscript": "bash",
+    "bat": ".bat",
+    "powershell": ".ps1",
+    "typescript": ".ts"
+  }
 }
