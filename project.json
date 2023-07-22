@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Data Structure LAB",
+        "rootPath": "f:\\MU\\MU Lab\\ds-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "Structured Programming LAB",
+        "rootPath": "f:\\MU\\MU Lab\\sp-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "Algorithm LAB",
+        "rootPath": "f:\\MU\\MU Lab\\algo-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "Practice",
+        "rootPath": "f:\\MU\\MU Lab\\practice",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "Object Oriented LAB",
+        "rootPath": "f:\\MU\\MU Lab\\oop-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    }
+]
