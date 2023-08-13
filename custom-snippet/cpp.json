@@ -1,0 +1,71 @@
+{
+    "Cpp Starting Boilerplate": {
+        "prefix": "cpp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "$1",
+            "int main()",
+            "{",
+            "\t$0",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Cpp Starting Boilerplate"
+    },
+    "Singly Linked List Class Node": {
+        "prefix": "snode",
+        "body": [
+            "class Node",
+            "{",
+            "public:",
+            "    int val;",
+            "    Node *next;",
+            "    Node(int val)",
+            "    {",
+            "        this->val = val;",
+            "        this->next = NULL;",
+            "    }",
+            "};"
+        ],
+        "description": "Singly Linked List Class Node"
+    },
+    "Doubly Linked List Class Node": {
+        "prefix": "dnode",
+        "body": [
+            "class Node",
+            "{",
+            "public:",
+            "    int val;",
+            "    Node *next;",
+            "    Node *prev;",
+            "    Node(int val)",
+            "    {",
+            "        this->val = val;",
+            "        this->next = NULL;",
+            "        this->prev = NULL;",
+            "    }",
+            "};"
+        ],
+        "description": "Doubly Linked List Class Node"
+    },
+    "Binary Tree Class Node": {
+        "prefix": "bnode",
+        "body": [
+            "class Node",
+            "{",
+            "public:",
+            "    int val;",
+            "    Node *left;",
+            "    Node *right;",
+            "    Node(int val)",
+            "    {",
+            "        this->val = val;",
+            "        this->left = NULL;",
+            "        this->right = NULL;",
+            "    }",
+            "};"
+        ],
+        "description": "Binary Tree Class Node"
+    }
+}
