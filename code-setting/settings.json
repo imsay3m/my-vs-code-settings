@@ -1,30 +1,26 @@
 {
+  // theme & icon pack
   "workbench.colorTheme": "Learn with Sumit - Vintage",
+  "workbench.iconTheme": "vscode-icons",
+  // editor & workbench
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
-  "editor.stickyScroll.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.accessibilitySupport": "off",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "workbench.sideBar.location": "right",
-  //Tabnine config
-  "tabnine.experimentalAutoImports": true,
-  //Live server config
-  "liveServer.settings.donotShowInfoMsg": true,
-  //Material icon theme config
-  "workbench.iconTheme": "vs-nomo-dark",
-  // Project manager
-  "projectManager.git.baseFolders": [
-    "f:\\\\projects"
-  ],
-  // Cursor
+  // cursor & scroll
+  "editor.mouseWheelScrollSensitivity": 0.85,
+  "editor.mouseWheelZoom": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 3,
   "editor.cursorBlinking": "expand",
-  // Controls the font family.
+  "editor.stickyScroll.enabled": true,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  // font family.
   "editor.fontFamily": "Cascadia Code,Fira Code iScript,Operator Mono",
-  // Enables font ligatures
   // "editor.fontLigatures": true,
   // "editor.fontLigatures": "'calt', 'ss01'",
   "editor.fontLigatures": "'calt','ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
@@ -42,11 +38,11 @@
   },
   //Terminal
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.mouseWheelScrollSensitivity": 0.25,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 15.5,
   "terminal.integrated.fontWeight": "500", //Medium
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  // Terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
     "terminal.foreground": "#A89984",
@@ -69,14 +65,25 @@
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
   },
+  //extension
+  "extensions.autoUpdate": false,
+  //Tabnine config
+  // "tabnine.experimentalAutoImports": true,
+  //Live server config
+  "liveServer.settings.donotShowInfoMsg": true,
+  // Project manager
+  "projectManager.git.baseFolders": [
+    "D:\\\\Academic\\\\projects"
+  ],
+  //C/C++ version
   "C_Cpp.default.cStandard": "c11",
   "C_Cpp.default.cppStandard": "c++17",
   //CPH config
   "cph.general.menuChoices": "cpp java python c",
   "cph.general.timeOut": 5000,
   // Code Runner
-  "code-runner.ignoreSelection": true,
   "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.terminalRoot": "/",
@@ -137,5 +144,5 @@
     "sml": "cd $dir && sml $fileName"
   },
   //JAVA_HOME path
-  "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-20"
+  "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-20",
 }

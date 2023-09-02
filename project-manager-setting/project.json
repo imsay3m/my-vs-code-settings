@@ -1,35 +1,49 @@
 [
     {
         "name": "Data Structure LAB",
-        "rootPath": "f:\\MU\\MU Lab\\ds-lab",
+        "rootPath": "D:\\Academic\\MU\\lab\\ds-lab",
         "paths": [],
         "tags": [],
         "enabled": true
     },
     {
         "name": "Structured Programming LAB",
-        "rootPath": "f:\\MU\\MU Lab\\sp-lab",
+        "rootPath": "D:\\Academic\\MU\\lab\\sp-lab",
         "paths": [],
         "tags": [],
         "enabled": true
     },
     {
         "name": "Algorithm LAB",
-        "rootPath": "f:\\MU\\MU Lab\\algo-lab",
+        "rootPath": "D:\\Academic\\MU\\lab\\algo-lab",
         "paths": [],
         "tags": [],
         "enabled": true
     },
     {
         "name": "Practice",
-        "rootPath": "f:\\MU\\MU Lab\\practice",
+        "rootPath": "D:\\Academic\\MU\\lab\\practice",
         "paths": [],
         "tags": [],
         "enabled": true
     },
     {
         "name": "Object Oriented LAB",
-        "rootPath": "f:\\MU\\MU Lab\\oop-lab",
+        "rootPath": "D:\\Academic\\MU\\lab\\oop-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "MU Contest",
+        "rootPath": "D:\\Academic\\MU\\contest",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "ACM LAB",
+        "rootPath": "D:\\Academic\\MU\\lab\\acm-lab",
         "paths": [],
         "tags": [],
         "enabled": true
