@@ -7,11 +7,88 @@
             "$1",
             "int main()",
             "{",
-            "\t$0",
+            "\t$2",
             "    return 0;",
             "}"
         ],
         "description": "Cpp Starting Boilerplate"
+    },
+    "Long Long Int Typedef": {
+        "prefix": "ll",
+        "body": [
+            "typedef long long ll;"
+        ],
+        "description": "Long Long Int Macro"
+    },
+    "Vector of int Typedef": {
+        "prefix": "vi",
+        "body": [
+            "typedef vector<int> vi;"
+        ],
+        "description": "Vector of int Typedef"
+    },
+    "Pair of int Typedef": {
+        "prefix": "pi",
+        "body": [
+            "typedef pair<int, int> pi;"
+        ],
+        "description": "Pair of int Macro"
+    },
+    "PI number Macro": {
+        "prefix": "PI",
+        "body": [
+            "#define PI 3.14159265359"
+        ],
+        "description": "PI number Macro"
+    },
+    "Fast input/output Macro": {
+        "prefix": "fast",
+        "body": [
+            "#define fast                      \\",
+            "    ios_base::sync_with_stdio(0); \\",
+            "    cin.tie(nullptr);"
+        ],
+        "description": "Fast input/output Macro"
+    },
+    "YES Output Macro": {
+        "prefix": "yes",
+        "body": [
+            "#define yes cout << \"YES\\n\""
+        ],
+        "description": "YES Output Macro"
+    },
+    "NO Output Macro": {
+        "prefix": "no",
+        "body": [
+            "#define no cout << \"NO\\n\""
+        ],
+        "description": "NO Output Macro"
+    },
+    "-1 Output Macro": {
+        "prefix": "minus1",
+        "body": [
+            "#define minus1 cout << -1 << endl"
+        ],
+        "description": "-1 Output Macro"
+    },
+    "FOR loop Macro": {
+        "prefix": "REP",
+        "body": [
+            "#define REP(i, a, b) for (int i = a; i < b; i++)"
+        ],
+        "description": "FOR loop Macro"
+    },
+    "Test Case Macro": {
+        "prefix": "test",
+        "body": [
+            "int t;",
+            "cin >> t;",
+            "while (t--)",
+            "{",
+            "\t$1",
+            "}"
+        ],
+        "description": "Test Case Macro"
     },
     "Singly Linked List Class Node": {
         "prefix": "snode",

@@ -67,6 +67,8 @@
   },
   //extension
   "extensions.autoUpdate": false,
+  //emmet
+  "emmet.triggerExpansionOnTab": true,
   //Tabnine config
   // "tabnine.experimentalAutoImports": true,
   //Live server config
