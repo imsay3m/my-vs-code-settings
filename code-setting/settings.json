@@ -3,16 +3,18 @@
   "workbench.colorTheme": "Learn with Sumit - Vintage",
   "workbench.iconTheme": "vscode-icons",
   // editor & workbench
+  "workbench.activityBar.location": "top",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
   "editor.wordWrap": "on",
-  "editor.minimap.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.accessibilitySupport": "off",
+  "editor.tabSize": 4,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "workbench.sideBar.location": "right",
   // cursor & scroll
   "editor.mouseWheelScrollSensitivity": 0.85,
-  "editor.mouseWheelZoom": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 3,
   "editor.cursorBlinking": "expand",
@@ -20,12 +22,12 @@
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   // font family.
-  "editor.fontFamily": "Cascadia Code,Fira Code iScript,Operator Mono",
+  "editor.fontFamily": "JetBrains Mono,Fira Code iscript,Cascadia Code,Operator Mono",
   // "editor.fontLigatures": true,
   // "editor.fontLigatures": "'calt', 'ss01'",
   "editor.fontLigatures": "'calt','ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
   "editor.fontSize": 15.5,
-  "editor.fontWeight": "400", //Regular
+  "editor.fontWeight": "450", //Regular
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -44,31 +46,139 @@
   "terminal.integrated.fontWeight": "500", //Medium
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   "workbench.colorCustomizations": {
-    "terminal.background": "#1D2021",
-    "terminal.foreground": "#A89984",
-    "terminalCursor.background": "#a8998490",
-    "terminalCursor.foreground": "#a8998490",
-    "terminal.ansiBlack": "#1D2021",
-    "terminal.ansiBlue": "#0D6678",
-    "terminal.ansiBrightBlack": "#665C54",
-    "terminal.ansiBrightBlue": "#0D6678",
-    "terminal.ansiBrightCyan": "#8BA59B",
-    "terminal.ansiBrightGreen": "#95C085",
-    "terminal.ansiBrightMagenta": "#8F4673",
-    "terminal.ansiBrightRed": "#FB543F",
-    "terminal.ansiBrightWhite": "#FDF4C1",
-    "terminal.ansiBrightYellow": "#FAC03B",
-    "terminal.ansiCyan": "#8BA59B",
-    "terminal.ansiGreen": "#95C085",
-    "terminal.ansiMagenta": "#8F4673",
-    "terminal.ansiRed": "#FB543F",
-    "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
+    //drac theme
+    // "terminal.background": "#282936",
+    // "terminal.foreground": "#E9E9F4",
+    // "terminalCursor.background": "#E9E9F4",
+    // "terminalCursor.foreground": "#E9E9F4",
+    // "terminal.ansiBlack": "#282936",
+    // "terminal.ansiBlue": "#62D6E8",
+    // "terminal.ansiBrightBlack": "#626483",
+    // "terminal.ansiBrightBlue": "#62D6E8",
+    // "terminal.ansiBrightCyan": "#A1EFE4",
+    // "terminal.ansiBrightGreen": "#EBFF87",
+    // "terminal.ansiBrightMagenta": "#B45BCF",
+    // "terminal.ansiBrightRed": "#EA51B2",
+    // "terminal.ansiBrightWhite": "#F7F7FB",
+    // "terminal.ansiBrightYellow": "#00F769",
+    // "terminal.ansiCyan": "#A1EFE4",
+    // "terminal.ansiGreen": "#EBFF87",
+    // "terminal.ansiMagenta": "#B45BCF",
+    // "terminal.ansiRed": "#EA51B2",
+    // "terminal.ansiWhite": "#E9E9F4",
+    // "terminal.ansiYellow": "#00F769"
+    //porple
+    "terminal.background": "#292C36",
+    "terminal.foreground": "#D8D8D8",
+    "terminalCursor.background": "#D8D8D8",
+    "terminalCursor.foreground": "#D8D8D8",
+    "terminal.ansiBlack": "#292C36",
+    "terminal.ansiBlue": "#8485CE",
+    "terminal.ansiBrightBlack": "#65568A",
+    "terminal.ansiBrightBlue": "#8485CE",
+    "terminal.ansiBrightCyan": "#64878F",
+    "terminal.ansiBrightGreen": "#95C76F",
+    "terminal.ansiBrightMagenta": "#B74989",
+    "terminal.ansiBrightRed": "#F84547",
+    "terminal.ansiBrightWhite": "#F8F8F8",
+    "terminal.ansiBrightYellow": "#EFA16B",
+    "terminal.ansiCyan": "#64878F",
+    "terminal.ansiGreen": "#95C76F",
+    "terminal.ansiMagenta": "#B74989",
+    "terminal.ansiRed": "#F84547",
+    "terminal.ansiWhite": "#D8D8D8",
+    "terminal.ansiYellow": "#EFA16B"
+    //isotope
+    // "terminal.background": "#000000",
+    // "terminal.foreground": "#D0D0D0",
+    // "terminalCursor.background": "#D0D0D0",
+    // "terminalCursor.foreground": "#D0D0D0",
+    // "terminal.ansiBlack": "#000000",
+    // "terminal.ansiBlue": "#0066FF",
+    // "terminal.ansiBrightBlack": "#808080",
+    // "terminal.ansiBrightBlue": "#0066FF",
+    // "terminal.ansiBrightCyan": "#00FFFF",
+    // "terminal.ansiBrightGreen": "#33FF00",
+    // "terminal.ansiBrightMagenta": "#CC00FF",
+    // "terminal.ansiBrightRed": "#FF0000",
+    // "terminal.ansiBrightWhite": "#FFFFFF",
+    // "terminal.ansiBrightYellow": "#FF0099",
+    // "terminal.ansiCyan": "#00FFFF",
+    // "terminal.ansiGreen": "#33FF00",
+    // "terminal.ansiMagenta": "#CC00FF",
+    // "terminal.ansiRed": "#FF0000",
+    // "terminal.ansiWhite": "#D0D0D0",
+    // "terminal.ansiYellow": "#FF0099"
+    //pop
+    // "terminal.background": "#000000",
+    // "terminal.foreground": "#D0D0D0",
+    // "terminalCursor.background": "#D0D0D0",
+    // "terminalCursor.foreground": "#D0D0D0",
+    // "terminal.ansiBlack": "#000000",
+    // "terminal.ansiBlue": "#0E5A94",
+    // "terminal.ansiBrightBlack": "#505050",
+    // "terminal.ansiBrightBlue": "#0E5A94",
+    // "terminal.ansiBrightCyan": "#00AABB",
+    // "terminal.ansiBrightGreen": "#37B349",
+    // "terminal.ansiBrightMagenta": "#B31E8D",
+    // "terminal.ansiBrightRed": "#EB008A",
+    // "terminal.ansiBrightWhite": "#FFFFFF",
+    // "terminal.ansiBrightYellow": "#F8CA12",
+    // "terminal.ansiCyan": "#00AABB",
+    // "terminal.ansiGreen": "#37B349",
+    // "terminal.ansiMagenta": "#B31E8D",
+    // "terminal.ansiRed": "#EB008A",
+    // "terminal.ansiWhite": "#D0D0D0",
+    // "terminal.ansiYellow": "#F8CA12"
   },
   //extension
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": true,
+  // Excalidraw
+  "excalidraw.theme": "dark",
+  "excalidraw.image": {
+    "exportScale": 1,
+    "exportWithBackground": true,
+    "exportWithDarkMode": false
+  },
+  //python
+  "python.analysis.typeCheckingMode": "basic",
+  "python.jediEnabled": "true",
+  // paython auto import
+  "python.analysis.autoImportCompletions": true,
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/src"
+  ],
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/src"
+  ],
+  "python.analysis.indexing": true,
+  "python.analysis.packageIndexDepths": [
+    {
+      "name": "",
+      "depth": 20,
+      "includeAllSymbols": true
+    }
+  ],
+  // black formatter
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  // isort
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
   //emmet
+  "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
   //Tabnine config
   // "tabnine.experimentalAutoImports": true,
   //Live server config
@@ -147,4 +257,5 @@
   },
   //JAVA_HOME path
   "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-20",
+  "editor.minimap.enabled": false,
 }
