@@ -1,20 +1,20 @@
 [
     {
-        "name": "Data Structure LAB",
+        "name": "DS LAB",
         "rootPath": "D:\\Academic\\MU\\lab\\ds-lab",
         "paths": [],
         "tags": [],
         "enabled": true
     },
     {
-        "name": "Structured Programming LAB",
+        "name": "SP LAB",
         "rootPath": "D:\\Academic\\MU\\lab\\sp-lab",
         "paths": [],
         "tags": [],
         "enabled": true
     },
     {
-        "name": "Algorithm LAB",
+        "name": "ALGO LAB",
         "rootPath": "D:\\Academic\\MU\\lab\\algo-lab",
         "paths": [],
         "tags": [],
@@ -28,7 +28,7 @@
         "enabled": true
     },
     {
-        "name": "Object Oriented LAB",
+        "name": "OOP LAB",
         "rootPath": "D:\\Academic\\MU\\lab\\oop-lab",
         "paths": [],
         "tags": [],
@@ -44,6 +44,55 @@
     {
         "name": "ACM LAB",
         "rootPath": "D:\\Academic\\MU\\lab\\acm-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "PYTHON DS",
+        "rootPath": "d:\\Academic\\MU\\lab\\python-ds",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "DBMS LAB",
+        "rootPath": "d:\\Academic\\MU\\lab\\dbms-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "100 DAYS OF CODE",
+        "rootPath": "d:\\Academic\\projects\\100-days-of-code",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "MICROPROCCESSOR LAB",
+        "rootPath": "d:\\Academic\\MU\\lab\\microprocessor-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "PDS-03",
+        "rootPath": "d:\\Academic\\projects\\python-programming-and-basic-data-science",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "OS LAB",
+        "rootPath": "d:\\Academic\\MU\\lab\\os-lab",
+        "paths": [],
+        "tags": [],
+        "enabled": true
+    },
+    {
+        "name": "DSA PROBLEM SOLVING",
+        "rootPath": "d:\\Academic\\projects\\dsa-problem-solving",
         "paths": [],
         "tags": [],
         "enabled": true
